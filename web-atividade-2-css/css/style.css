@@ -1,0 +1,159 @@
+*{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+.head div {
+    padding: 30px;
+    margin: 3px;
+    width: 20%;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 28px;
+    text-align: center;
+    float: left;
+}
+
+.head div:hover {
+    background-color: gray
+}
+
+
+.head div a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Classe que define o corpo da pagina*/
+.container{
+    padding-top: 135px;
+}
+
+#title-site{
+    text-align: center;
+}
+
+#contato {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(196, 196, 196);
+    width: 275px;
+}
+
+#contato ul li {
+    list-style: none;
+}
+
+#pontos-turisticos ul li {
+   list-style: none;
+}
+
+#pontos-turisticos ul li a {
+    text-decoration: none;
+    text-emphasis-color: red;
+}
+
+.img-decoration {
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.img-decoration img {
+    height: 300px;
+    width: 350px;
+}
+
+#first-img {
+    padding-right: 12px;
+    height: 350px;
+    width: 800px;
+}
+
+#sub-div-cedro {
+    display: flex;
+}
+
+#sub-div-cedro img {
+    width: 25%;
+}
+
+#area-lazer {
+    display: flex;
+    flex-direction: row;
+}
+
+#area-lazer img {
+    height: 400px;
+    width: 460px;
+}
+
+#espaco-jogos img{
+    height: 270px;
+    width: 33%;
+}
+
+
+#auditorio img{
+    float: left;
+    height:300px;
+    width: 50%;
+}
+
+
+#restaurante img{
+    float: unset;
+    height: 350px;
+    width: 40%;
+}
+
+#piscinas{
+    float: left;
+    padding-bottom: 30px;
+}
+
+#piscinas img {
+    height: 300px;
+    width: 330px;
+}
+
+#quartos{
+    font-size: 22px;
+}
+
+.quartos-img {
+    display: inline;
+}
+
+.quartos-img img{
+    height: 250px;
+    width: 330px;
+}
+
+#luxo{
+    display: inline-block;
+}
+
+#luxo img {
+    width: 550px;
+    height: 250px;
+}
+
+
+#footer {
+    clear: both;
+    border-spacing: 0.6px;
+    border-style: groove;
+    color: gray;
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px 0px 0px 0px;
+}

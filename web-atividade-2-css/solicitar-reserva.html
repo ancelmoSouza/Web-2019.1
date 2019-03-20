@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Formulário de Reserva </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../web-atividade-2-css/css/style.css">
+   
+</head>
+<body>
+    <div class="head">
+        <div><a href="pagina-principal.html"> Home </a></div>
+        <div><a href="hotel.html"> Hotel </a></div>
+        <div><a href="quartos.html"> Quartos </a></div>
+        <div><a href="solicitar-reserva.html"> Reserva </a></div>
+        <div><a href="#footer"> Autor </a> </div>
+    </div>
+
+    <div class="container">
+
+        <h1> Formulário pra solicitação de Reserva </h1>
+        <form>
+            <fieldset>
+                <legend> Formulário de Reserva </legend>
+                
+                Nome <input type="text" name="Nome"> <br> <br>
+                Cpf <input type="number" name="cpf"> <br> <br>
+                Email <input type="text" name="email"> <br> <br>
+                Telefone <input type="number" name="telefone"> <br> <br>
+                Data Entrada <input type="date" name="date-entrada">    
+                Data Saida <input type="date" name="date-saida"> <br> <br>
+                
+                Quantidade de integrantes para o quarto
+                <select>
+                    <option value="1"> 1 </option>
+                    <option value="2"> 2 </option>
+                    <option value="3"> 3 </option>
+                    <option value="4"> 4 </option>
+                </select>
+                <br><br>
+
+                Tipo de Suíte
+                <select>
+                    <option value="luxo"> Suíte de Luxo</option>
+                    <option value="premium"> Suíte Premium </option>
+                    <option value="presidencial"> Suíte Presidencial </option>
+                </select> <br> <br>
+
+                Forma de Pagamento
+                <select>
+                    <option value="debito"> Cartão de Débito </option>
+                    <option value="credito"> Cartão de Crédito </option>
+                    <option value="dinheiro">  Dinheiro a vista </option>
+                </select> <br> <br>
+
+                <input type="submit" value="Concluir">
+            </fieldset>
+
+        </form>
+    </div>
+
+    <div id="footer">
+        <h1> Ancelmo de Souza Lopes Matrícula: 397133</h1>
+    </div>
+
+</body>
+
+</html>
